@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="anchoImagenToolbar">50dp</dimen>
+    <dimen name="tamanioTituloApp">30sp</dimen>
+    <dimen name="marginLeftTitulo">30dp</dimen>
+    <dimen name="nombre_prod">30sp</dimen>
+    <dimen name="marginLeftProd">30dp</dimen>
+    <dimen name="padding_prob">30dp</dimen>
+    <dimen name="margin_top_prod">20dp</dimen>
+    <dimen name="tamanio_desc_prod">20dp</dimen>
+
+</resources>

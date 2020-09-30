@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".ProductoViewActivity">
+
+    <include layout="@layout/toolbar">
+    </include>
+<LinearLayout
+    android:padding="@dimen/padding_prob"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/nombreProdView"
+        android:textStyle="bold"
+        android:textSize="@dimen/tamanioTituloApp"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+    </TextView>
+
+    <ImageView
+        android:layout_marginTop="@dimen/margin_top_prod"
+        android:layout_width="match_parent"
+        android:id="@+id/imagen_prod_view"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_top_prod">
+    </ImageView>
+
+    /*Descripcion*/
+    <TextView
+        android:layout_marginTop="@dimen/margin_top_prod"
+        android:id="@+id/desc_prod_view_tv"
+        android:textSize="@dimen/tamanio_desc_prod"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </TextView>
+
+    /* Precio*/
+<LinearLayout
+    android:layout_marginTop="@dimen/margin_top_prod"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <TextView
+        android:textSize="@dimen/tamanioTituloApp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Precio">
+    </TextView>
+    <TextView
+        android:layout_weight="1"
+        android:textColor="@color/colorAccent"
+        android:id="@+id/precio_prod_view_tv"
+        android:layout_width="match_parent"
+        android:textSize="@dimen/tamanioTituloApp"
+        android:layout_height="wrap_content">
+    </TextView>
+
+</LinearLayout>
+</LinearLayout>
+</LinearLayout>
